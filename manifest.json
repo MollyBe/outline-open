@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2, 
+  "version": "1.0",
+  "name": "Outline Open",
+  "author": "henrique[dot]facioli[at]protonmail[dot]com",
+  "description": "Open a web page on https://outline.com/",
+  "browser_action": {
+    "default_icon": "outline.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "incognito": "spanning",
+  "icons": {"16": "outline.png",
+            "48": "outline.png",
+            "128": "outline.png"}
+}
